@@ -1,32 +1,26 @@
-function setup(){
-	createCanvas(500,500);
-	background(0);
-	}
+function setup () {
+  createCanvas(500,500);
+}
 
-function draw(){
-	if (mouseClicked){
-		for (int x = 0; x < width; x = x + 20 {
-		for (int y = 0; y < height; y = y + 20 {
-			stroke(0);
-			ellipse(x, y, 40, 40);
-		 }
-		}
-} else {
-	noStroke();
-		for(int x = 0; x < width; x = x + 20) {
-    		fill(random(70),random(70),random(70),80);
-    		ellipse(x,0,80,80);
+ function draw () {
+  background(white);
+  if (mousePressed == true){
+  noStroke();
+  fill(random(235),random(205),random(255),50);
+  ellipse(400,400,300,300);
+  noStroke();
+  fill(random(100),random(100),random(100),40);
+  ellipse (265,301,300,300);
+  } else {
+  noStroke();
+  fill(0);
+  ellipse(400,400,300,300);
+  noStroke();
+  fill(80,80,80,80);
+  ellipse(265,301,300,300);
   }
-  
-  		for (int y = 0; y < height; y = y + 20) {
-    		fill(random(70),random(70),random(70),80);
-    		ellipse(0,y,40,40);
-  }
-  
-  		for (int x = 0; x < width; x = x + 20) {
-    	for (int y = 0; y < height; y = y + 20) {
-      		fill(random(70),random(70),random(70),80);
-      		ellipse(x,y,40,40);
-      	}
-      }
-     }
+}
+
+function mousePressed(){
+  white +=20;
+}
