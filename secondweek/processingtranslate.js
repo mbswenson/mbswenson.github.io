@@ -1,9 +1,9 @@
 function setup () {
   createCanvas(500,500);
+  background(#FFFFFF);
 }
 
  function draw () {
-  background(#FFFFFF);
   if (mouseIsPressed == true){
   noStroke();
   fill(random(235),random(205),random(255),50);
