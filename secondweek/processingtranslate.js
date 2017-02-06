@@ -3,7 +3,7 @@ function setup () {
 }
 
  function draw () {
-  background(white);
+  background(#FFFFFF);
   if (mouseIsPressed == true){
   noStroke();
   fill(random(235),random(205),random(255),50);
@@ -22,5 +22,5 @@ function setup () {
 }
 
 function mouseIsPressed(){
-  white +=20;
+  #FFFFFF +=20;
 }
