@@ -20,7 +20,3 @@ function setup () {
   ellipse(265,301,300,300);
   }
 }
-
-function mouseIsPressed(){
-  #FFFFFF +=20;
-}
