@@ -4,7 +4,7 @@ function setup () {
 
  function draw () {
   background(white);
-  if (mousePressed == true){
+  if (mouseIsPressed == true){
   noStroke();
   fill(random(235),random(205),random(255),50);
   ellipse(400,400,300,300);
@@ -21,6 +21,6 @@ function setup () {
   }
 }
 
-function mousePressed(){
+function mouseIsPressed(){
   white +=20;
 }
