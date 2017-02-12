@@ -11,5 +11,5 @@ function setup(){
 function draw(){
 	noFill();
 	stroke(random(255),random(255),random(255));
-	ellipse(250, 250, 200, 200);
+	ellipse(50, 50, 200, 200);
 }
