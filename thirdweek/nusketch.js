@@ -9,8 +9,8 @@ function setup(){
 }
 
 function draw(){
-	fill(0); 
-	stroke(random(255), random(255), random(255));
+	ambientLight();
+	specularMaterial(random(255),random(255),random(255));
 	rotateX(frameCount * 0.01);
  	rotateY(frameCount * 0.01);
     box(width/2, height/2, 150);
