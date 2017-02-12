@@ -9,5 +9,7 @@ function setup(){
 
 function draw(){
 	background (0);
+	noFill();
+	stroke(random(255),random(255),random(255));
 	box (100, 100, 100);
 }
