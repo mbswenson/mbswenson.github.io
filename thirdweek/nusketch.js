@@ -9,7 +9,9 @@ function setup(){
 }
 
 function draw(){
-	noFill();
-	stroke(random(255),random(255),random(255));
-	ellipse(50, 50, 200, 200);
+	noFill(); 
+	stroke(random(255), random(255), random(255));
+	rotateX(frameCount * 0.01);
+ 	rotateY(frameCount * 0.01);
+    box(width/2, height/2, 200);
 }
