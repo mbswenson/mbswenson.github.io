@@ -3,7 +3,7 @@ var sliderslide;
 var sliderslideslide;
 
 function setup(){
-	canvas = createCanvas(500, 500, WEBGL);
+	canvas = createCanvas(600, 600, WEBGL);
 	canvas.position(300, 50);
 	background (0);
 }
