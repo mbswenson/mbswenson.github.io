@@ -9,9 +9,8 @@ function setup(){
 }
 
 function draw(){
-	ambientLight();
-	specularMaterial(random(255),random(255),random(255));
-	rotateX(frameCount * 0.01);
- 	rotateY(frameCount * 0.01);
-    box(width/2, height/2, 150);
+	fill(255);
+	ellipse(width/4, height/2, 100, 100);
+	ellipse(width/2, height/2, 100, 100);
+	ellipse(width/4+width/2, height/2, 100, 100);
 }
