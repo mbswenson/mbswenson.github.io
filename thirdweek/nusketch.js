@@ -1,7 +1,7 @@
 var canvas;
 
 function setup(){
-	canvas = createCanvas(600, 400);
+	canvas = createCanvas(500, 500);
 	canvas.position(300, 50);
 	canvas.class("lemon");
 }
