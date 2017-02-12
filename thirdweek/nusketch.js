@@ -13,5 +13,5 @@ function draw(){
 	stroke(random(255), random(255), random(255));
 	rotateX(frameCount * 0.01);
  	rotateY(frameCount * 0.01);
-    box(width/2, height/2, 200);
+    box(width/2, height/2, 150);
 }
