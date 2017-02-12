@@ -9,7 +9,7 @@ function setup(){
 }
 
 function draw(){
-	noFill(); 
+	fill(0); 
 	stroke(random(255), random(255), random(255));
 	rotateX(frameCount * 0.01);
  	rotateY(frameCount * 0.01);
