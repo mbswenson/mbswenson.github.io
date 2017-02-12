@@ -12,3 +12,4 @@ function draw(){
 	noFill();
 	stroke(random(255),random(255),random(255));
 	ellipse(56, 46, 55, 55);
+}
