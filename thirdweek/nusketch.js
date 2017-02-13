@@ -5,15 +5,15 @@ var sizeslide;
 
 function setup(){
 	canvas = createCanvas(800, 600);
-	canvas.position(200, 80);
+	canvas.position(230, 80);
 	background (0);
 	colorMode(HSB, 255);
 	colorslide = createSlider (0, 255, 0);
-	colorslide.position (width/4+width/2, 560);
+	colorslide.position (400, 560);
 	strokeslide = createSlider (1, 20, 1);
-	strokeslide.position (width/4+width/2, 570);
+	strokeslide.position (400, 570);
 	sizeslide = createSlider (100, 400, 100);
-	sizeslide.position (width/4+width/2, 580);
+	sizeslide.position (400, 580);
 }
 
 function draw(){
