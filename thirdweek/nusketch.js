@@ -4,16 +4,16 @@ var strokeslide;
 var sizeslide;
 
 function setup(){
-	canvas = createCanvas(700, 700);
+	canvas = createCanvas(800, 600);
 	canvas.position(300, 50);
 	background (0);
 	colorMode(HSB, 255);
 	colorslide = createSlider (0, 255, 0);
-	colorslide.position (width/4, 550);
+	colorslide.position (width/4, 580);
 	strokeslide = createSlider (1, 20, 1);
-	strokeslide.position (width/2, 550);
+	strokeslide.position (width/2, 580);
 	sizeslide = createSlider (100, 400, 100);
-	strokeslide.position (width/4+width/2, 550);
+	strokeslide.position (width/4+width/2, 580);
 }
 
 function draw(){
