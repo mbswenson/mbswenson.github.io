@@ -5,7 +5,7 @@ var sizeslide;
 
 function setup(){
 	canvas = createCanvas(800, 600);
-	canvas.position(500, 50);
+	canvas.position(200, 80);
 	background (0);
 	colorMode(HSB, 255);
 	colorslide = createSlider (0, 255, 0);
