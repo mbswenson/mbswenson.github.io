@@ -13,7 +13,7 @@ function setup(){
 	strokeslide = createSlider (1, 20, 1);
 	strokeslide.position (width/2, 520);
 	sizeslide = createSlider (100, 400, 100);
-	strokeslide.position (width/2, 540);
+	sizeslide.position (width/2, 540);
 }
 
 function draw(){
