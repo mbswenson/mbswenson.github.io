@@ -19,7 +19,7 @@ function setup(){
 function draw(){
 	fill(colorslide.value(), 255, 255);
 	strokeWeight(strokeslide.value(), 2);
-	ellipse(width/4, height/2, (sizeSlide.value(), 100), (sizeSlide.value(), 100);
-	ellipse(width/2, height/2, (sizeSlide.value(), 100), (sizeSlide.value(), 100);
-	ellipse(width/4+width/2, height/2, (sizeSlide.value(), 100), (sizeSlide.value(), 100);
+	ellipse(width/4, height/2, (sizeSlide.value(), 100), (sizeSlide.value(), 100));
+	ellipse(width/2, height/2, (sizeSlide.value(), 100), (sizeSlide.value(), 100));
+	ellipse(width/4+width/2, height/2, (sizeSlide.value(), 100), (sizeSlide.value(), 100));
 }
