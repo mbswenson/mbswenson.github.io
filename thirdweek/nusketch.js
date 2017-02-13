@@ -4,7 +4,7 @@ var strokeslide;
 var sizeslide;
 
 function setup(){
-	canvas = createCanvas(600, 600);
+	canvas = createCanvas(700, 700);
 	canvas.position(300, 50);
 	background (0);
 	colorMode(HSB, 255);
