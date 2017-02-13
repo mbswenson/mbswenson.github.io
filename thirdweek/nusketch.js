@@ -9,11 +9,11 @@ function setup(){
 	background (0);
 	colorMode(HSB, 255);
 	colorslide = createSlider (0, 255, 0);
-	colorslide.position (680, 610);
+	colorslide.position (580, 610);
 	strokeslide = createSlider (1, 20, 1);
-	strokeslide.position (680, 630);
+	strokeslide.position (580, 630);
 	sizeslide = createSlider (100, 400, 100);
-	sizeslide.position (680, 650);
+	sizeslide.position (580, 650);
 }
 
 function draw(){
