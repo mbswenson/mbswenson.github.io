@@ -17,8 +17,9 @@ function setup(){
 }
 
 function draw(){
-	fill(255);
-	ellipse(width/4, height/2, 100, 100);
-	ellipse(width/2, height/2, 100, 100);
-	ellipse(width/4+width/2, height/2, 100, 100);
+	fill(colorslide.value(), 255, 255);
+	strokeWeight(strokeslide.value());
+	ellipse(width/4, height/2, sizeSlide.value(), sizeSlide.value());
+	ellipse(width/2, height/2, sizeSlide.value(), sizeSlide.value());
+	ellipse(width/4+width/2, height/2, sizeSlide.value(), sizeSlide.value());
 }
