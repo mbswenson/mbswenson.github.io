@@ -1,29 +1,22 @@
-var button;
-var textArea;
-var savedText;
+var buttbutt;
+var textLocale;
+var rememberedText;
 
 function setup(){
 	noCanvas();
-	textArea = createElement('textArea', 'enter text');
-	textArea.size(300,400);
+	textLocale = createElement('textArea', 'enter text');
+	textLocale.size(300,400);
 	createElement('br');
-	button = createButton ('push to save');
-	button.mousePressed(saveText);
+	buttbutt = createButton ('push to save');
+	buttbutt.mousePressed(saveText);
 }
 
 function saveText(){
-	savedText = textArea.value();
-	createP("ORIGINAL TEXT: " + savedText);
+	rememberedText = textLocale.value();
+	createP("ORIGINAL TEXT: " + rememberedText);
 
-	var textArr = splitTokens(savedText, '.:;?! @#$%^&*()-+');
+	var textArr = splitTokens(rememberedText, '.:;?! @#$%^&*()-+');
 	var length = textArr.length;
-
-	for (var i = 0; i < textArr.length; i++){
-		 if (textArr[i] === "I" || textArr[i] === "i") {
-     	 textArr[i] = "you";
-    	}
-	}
-
 	var newString = join(textArr, '');
 	createP("NEW TEXT: " + newString);
 }
