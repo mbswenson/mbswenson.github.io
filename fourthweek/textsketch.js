@@ -6,7 +6,6 @@ function setup(){
 	noCanvas();
 	textLocale = createElement('textArea', 'enter text');
 	textLocale.size(500,500);
-	textLocale.color(#4B0082);
 	createElement('br');
 	buttbutt = createButton ('push to save');
 	buttbutt.mousePressed(saveText);
@@ -15,7 +14,6 @@ function setup(){
 function saveText(){
 	rememberedText = textLocale.value();
 	createP("ORIGINAL TEXT: " + rememberedText);
-
 	var textArr = splitTokens(rememberedText, '.:;?! @#$%^&*()-+');
 	var length = textArr.length;
 	var newString = join(textArr, '');
