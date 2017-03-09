@@ -5,10 +5,11 @@ var rememberedText;
 function setup(){
 	noCanvas();
 	textLocale = createElement('textArea', 'enter text');
-	textLocale.size(300,400);
+	textLocale.size(500,500);
 	createElement('br');
 	buttbutt = createButton ('push to save');
 	buttbutt.mousePressed(saveText);
+	buttbutt = background (red);
 }
 
 function saveText(){
