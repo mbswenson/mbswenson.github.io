@@ -8,8 +8,8 @@ function setup(){
 	textLocale.size(500,500);
 	createElement('br');
 	buttbutt = createButton ('push to save');
+	buttbutt.color(#4B0082);
 	buttbutt.mousePressed(saveText);
-	buttbutt = background (red);
 }
 
 function saveText(){
