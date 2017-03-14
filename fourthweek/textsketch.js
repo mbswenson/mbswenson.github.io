@@ -37,6 +37,6 @@ function saveText(){
 		}
 
 	}
-	var newString = join(textArr, '');
+	var newString = join(textArr, ' ');
 	createP(newString);
 }
