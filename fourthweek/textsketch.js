@@ -7,6 +7,7 @@ function setup(){
 	textLocale = createElement('textArea', 'write how you feel');
 	textLocale.size(200,200);
 	createElement('br');
+	createElement('br');
 	buttbutt = createButton ('dissociate from how you feel');
 	buttbutt.mousePressed(saveText);
 }
