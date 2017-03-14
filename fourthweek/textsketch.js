@@ -13,6 +13,7 @@ function setup(){
 }
 
 function saveText(){
+	background(random(255), random(255), random(255));
 	rememberedText = textLocale.value();
 	var textArr = splitTokens(rememberedText, '.:;?! @#$%^&*()-+');
 	var length = textArr.length;
