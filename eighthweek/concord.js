@@ -1,26 +1,24 @@
 var buttbutt;
 var textLocale;
-var rememberedText;
 var concordance = {};
 
 function setup(){
 	noCanvas();
 	textLocale = createElement ('textArea', 'write here');
-	textLocale.size(500, 500);
-	createElement('br');
-	createElement('br');
-	buttbutt = createButton ('boop');
+	textLocale.size (400, 400);
+
+	createElement ('br');
+	createElement ('br');
+
+	buttbutt = select ('#enter-text');
+	textLocale = select ('#input');
+
+	textLocale.value("In Data Poetics, we build upon our skills developed in Code 1 by moving beyond the image. We will take a closer look at the capacity of computers to process, interpret, visualize, and generate information, while studying everything from avant garde computational literature to the sociocultural implications of contemporary big data. Through our study of the applications of regular expressions, Markov chains, web scraping, data visualization, and semantic networks, we’ll write client and server-side Javascript, creating browser extensions, Twitter bots, and our own custom APIs, drawing from speculative and critical design to investigate the connections between culture, technology, and information.");
 	buttbutt.mousePressed(saveText);
 }
 
-function saveText(){
-	rememberedText = textLocale.value();
-	var textArr = splitTokens(rememberedText, '.:;?! @#$%^*()-+=[]{}/')
-    var length = textArr.length;
-}
-
 function concordanceMaker(){
-	data = saveText.value();
+	data = textLocale.value();
 	var tokens = data.split(/\W+/);
 
 	var keys = [];
