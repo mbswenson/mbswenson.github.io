@@ -48,7 +48,7 @@ function concordanceMaker(){
 function update(){
 	var ul = select('#concordance');
 	createCanvas(500, 500);
-	stroke(black);
-	fill(red);
-	ellipse(concordance[keys[i]]);
+	stroke(255, 204, 0);
+	fill(255, 204, 100);
+	ellipse(concordance[keys[i]],concordance[keys[i]]concordance[keys[i]], concordance[keys[i]]);
 }
