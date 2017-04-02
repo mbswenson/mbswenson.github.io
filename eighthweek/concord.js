@@ -4,8 +4,6 @@ var concordance = {};
 
 function setup(){
 	noCanvas();
-	textLocale = createElement ('textArea', 'write here');
-	textLocale.size (400, 400);
 
 	createElement ('br');
 	createElement ('br');
