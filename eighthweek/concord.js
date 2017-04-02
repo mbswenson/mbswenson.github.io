@@ -9,6 +9,7 @@ function setup(){
 	createElement('br');
 	buttbutt = createButton ('boop');
 	buttbutt.mousePressed(saveText);
+}
 
 function saveText(){
 	rememberedText = textLocale.value();
