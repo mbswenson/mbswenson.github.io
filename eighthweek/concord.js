@@ -3,7 +3,7 @@ var textLocale;
 var rememberedText;
 
 function setup(){
-	canvas = createCanvas (650, 650);
+	noCanvas();
 	textLocale = createElement ('textArea', 'write here');
 	textLocale.size(500, 500);
 	createElement('br');
