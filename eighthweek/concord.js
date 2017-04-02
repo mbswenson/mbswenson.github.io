@@ -1,6 +1,5 @@
 var buttbutt;
 var textLocale;
-var concordance = {};
 
 function setup(){
 	noCanvas();
@@ -16,6 +15,7 @@ function setup(){
 }
 
 function concordanceMaker(){
+	var concordance = {};
 	data = textLocale.value();
 	var tokens = data.split(/\W+/);
 
