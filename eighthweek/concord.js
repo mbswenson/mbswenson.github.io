@@ -42,7 +42,7 @@ function concordanceMaker(){
 	//for (var i = 0; i < keys.length; i++) {
 	//	var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
 	//	li.parent(ul);
-	}
+	//}
 }
 
 function update(){
