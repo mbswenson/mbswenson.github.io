@@ -50,5 +50,5 @@ function update(){
 	createCanvas(500, 500);
 	stroke(255, 204, 0);
 	fill(255, 204, 100);
-	ellipse(concordance[keys[i]],concordance[keys[i]]concordance[keys[i]], concordance[keys[i]]);
+	ellipse(concordance[keys[i]], concordance[keys[i]], concordance[keys[i]], concordance[keys[i]]);
 }
