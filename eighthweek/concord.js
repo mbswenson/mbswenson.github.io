@@ -41,10 +41,11 @@ function concordanceMaker(){
 	}
 
 	var ul = select('#concordance');
-	
-	for (var i = 0; i < keys.length; i++) {
+	var wordFreq = concordance[keys(i)];
+
+
 	stroke(255, 204, 0);
-	fill(concordance[keys(i)], concordance[keys(i)], 100);
+	fill(wordFreq, wordFreq, 100);
 	ellipse(100, 100, 100, 100);
 	}
 
