@@ -41,9 +41,12 @@ function concordanceMaker(){
 	}
 
 	var ul = select('#concordance');
+	
+	for (var i = 0; i < keys.length; i++) {
 	stroke(255, 204, 0);
 	fill(concordance[keys(i)], concordance[keys(i)], 100);
 	ellipse(100, 100, 100, 100);
+	}
 
 	//var ul = select('#concordance');
 	//for (var i = 0; i < keys.length; i++) {
