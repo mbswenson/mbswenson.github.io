@@ -42,7 +42,7 @@ function concordanceMaker(){
 
 	var ul = select('#concordance');
 	stroke(255, 204, 0);
-	fill(255, 204, 100);
+	fill(concordance[word[i]], concordance[word[i]], 100);
 	ellipse(100, 100, 100, 100);
 
 	//var ul = select('#concordance');
