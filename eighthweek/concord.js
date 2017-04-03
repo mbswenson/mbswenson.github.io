@@ -54,7 +54,6 @@ function concordanceMaker(){
 	//	var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
 	//	li.parent(ul);
 	//}
-}
 
 function update(){
 
