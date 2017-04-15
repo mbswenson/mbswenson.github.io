@@ -44,11 +44,12 @@ function concordanceMaker(){
 	var wordFreq = concordance[keys[i]];
 	var wordList = keys[[i]];
     
+  stroke (255, 0, 0);
     for (var x = 0; x < 1; x++){
     	for (var i = 0; i < keys.length; i++){
-	stroke(255, 204, 0);
-	fill(wordFreq, wordFreq, 100);
-	ellipse(100, 100, 100, 100);
+  text(concordance[keys[i]], 10, concordance[keys[i]]*(40));
+  text([keys[i]], 30, concordance[keys[i]]*(40));
+  ellipse((random(window.innerWidth-100)+60),concordance[keys[i]]*40, 5, 5);
 	}
 }
 }
