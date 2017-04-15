@@ -40,14 +40,17 @@ function concordanceMaker(){
 		console.log(keys[i] + ': ' + concordance[keys[i]]);
 	}
 
-	var ul = select('#concordance');
-	var wordFreq = concordance[keys(i)];
-
-
+//	var ul = select('#concordance');
+	var wordFreq = concordance[keys[i]];
+	var wordList = keys[[i]];
+    
+    for (var x = 0; x < 1; x++){
+    	for (var i = 0; i < keys.length; i++){
 	stroke(255, 204, 0);
 	fill(wordFreq, wordFreq, 100);
 	ellipse(100, 100, 100, 100);
 	}
+}
 
 	//var ul = select('#concordance');
 	//for (var i = 0; i < keys.length; i++) {
