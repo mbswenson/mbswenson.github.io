@@ -51,6 +51,7 @@ function concordanceMaker(){
 	ellipse(100, 100, 100, 100);
 	}
 }
+}
 
 	//var ul = select('#concordance');
 	//for (var i = 0; i < keys.length; i++) {
