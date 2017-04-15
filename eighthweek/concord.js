@@ -46,7 +46,7 @@ function concordanceMaker(){
     
     for (var x = 0; x < 1; x++){
     	for (var i = 0; i < keys.length; i++){
-  stroke([keys[i]], [keys[i]], [keys[i]]);
+  stroke(random(concordance[keys[i]]), random(concordance[keys[i]]), random(concordance[keys[i]]);
   text([keys[i]], 30, concordance[keys[i]]*(40));
   ellipse((random(window.innerWidth-100)+60),concordance[keys[i]]*40, 5, 5);
 	}
