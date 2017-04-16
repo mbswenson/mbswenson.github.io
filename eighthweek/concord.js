@@ -46,10 +46,10 @@ function concordanceMaker(){
     
     for (var x = 0; x < 1; x++){
     	for (var i = 0; i < keys.length; i++){
-  stroke(random(concordance[keys[i]]), random(concordance[keys[i]]), random(concordance[keys[i]]));
-  textSize(concordance[keys[i]]);
+  stroke(concordance[keys[i]]+20, concordance[keys[i]]+20, concordance[keys[i]]+20);
+  textSize(concordance[keys[i]]+20);
   text([keys[i]], 30, concordance[keys[i]]*(40));
-  ellipse(random(),random(), concordance[keys[i]]+10, concordance[keys[i]]+10);
+  ellipse(random(),random(), concordance[keys[i]], concordance[keys[i]]);
 	}
 }
 }
