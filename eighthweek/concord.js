@@ -61,7 +61,7 @@ function concordanceMaker(){
 
 function update(){
   for (var i = 0; i < keys.length; i++){
-  stroke(concordance[keys[i]], concordance[keys[i]], concordance[keys[i]]);
+  stroke(000000);
   textSize(concordance[keys[i]]+20);
   text([keys[i]], 30, concordance[keys[i]]*(40));
 
