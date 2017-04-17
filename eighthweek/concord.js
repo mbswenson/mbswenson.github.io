@@ -44,11 +44,11 @@ function concordanceMaker(){
 	var wordFreq = concordance[keys[i]];
 	var wordList = keys[[i]];
     
-    for (var x = 0; x < 1; x++){
-    	for (var i = 0; i < keys.length; i++){
-  stroke(concordance[keys[i]], concordance[keys[i]], concordance[keys[i]]);
-  textSize(concordance[keys[i]]+20);
-  text([keys[i]], 30, concordance[keys[i]]*(40));
+    //for (var x = 0; x < 1; x++){
+    //	for (var i = 0; i < keys.length; i++){
+ // stroke(concordance[keys[i]], concordance[keys[i]], concordance[keys[i]]);
+ // textSize(concordance[keys[i]]+20);
+ // text([keys[i]], 30, concordance[keys[i]]*(40));
 	}
 }
 }
@@ -60,5 +60,9 @@ function concordanceMaker(){
 	//}
 
 function update(){
+  for (var i = 0; i < keys.length; i++){
+  stroke(concordance[keys[i]], concordance[keys[i]], concordance[keys[i]]);
+  textSize(concordance[keys[i]]+20);
+  text([keys[i]], 30, concordance[keys[i]]*(40));
 
 }
