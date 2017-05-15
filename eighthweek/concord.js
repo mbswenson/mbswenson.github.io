@@ -58,6 +58,6 @@ function draw(){
   textSize(10);
   stroke(0);
   for (var i = 0; i < keys.length; i++){
-  text(keys[i]*, concordance[keys[i]]*60, concordance[keys[i]]*60);
+    text(keys[i], concordance[keys[i]]*60, concordance[keys[i]]*60);
 }
 }
