@@ -49,6 +49,7 @@ function concordanceMaker(){
 }
 
 function draw(){
+  fill(255);
   noStroke();
   textSize(10);
   text(keys[i], concordance[keys[i]]*40, concordance[keys[i]]*40);
