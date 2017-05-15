@@ -51,7 +51,7 @@ function concordanceMaker(){
 function draw(){
   fill(0);
   for (var i = 0; i < keys.length; i++){
-  	ellipse (concordance[keys[i]], concordance[keys[i]], concordance[keys[i]], concordance[keys[i]])
+  	ellipse (concordance[keys[i]]*40, concordance[keys[i]]*40, concordance[keys[i]]*40, concordance[keys[i]]*40)
 
 }
 }
