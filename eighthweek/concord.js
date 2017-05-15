@@ -41,9 +41,6 @@ function concordanceMaker(){
 	}
 
 	var ul = select('#concordance');
-	var wordFreq = concordance[keys[i]];
-	var wordList = keys[[i]];
-    
 
 	for (var i = 0; i < keys.length; i++) {
 		var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
@@ -51,8 +48,7 @@ function concordanceMaker(){
 	}
 }
 
-function update(){
-  stroke(0);
+function draw(){
   for (var i = 0; i < keys.length; i++){
   	textSize(concordance[keys[i]]+20);
   	text([keys[i]], 50, concordance[keys[i]]*(40));
