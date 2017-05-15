@@ -2,8 +2,6 @@ var buttbutt;
 var textLocale;
 var concordance = {};
 var keys = [];
-
-function setup(){
 	
 function setup() {
     var cnv = createCanvas(700, 600);
@@ -20,7 +18,6 @@ function setup() {
 	textLocale.value("In Data Poetics, we build upon our skills developed in Code 1 by moving beyond the image. We will take a closer look at the capacity of computers to process, interpret, visualize, and generate information, while studying everything from avant garde computational literature to the sociocultural implications of contemporary big data. Through our study of the applications of regular expressions, Markov chains, web scraping, data visualization, and semantic networks, we’ll write client and server-side Javascript, creating browser extensions, Twitter bots, and our own custom APIs, drawing from speculative and critical design to investigate the connections between culture, technology, and information.");
 	buttbutt.mousePressed(concordanceMaker);
 
-	//createCanvas(400, 400);
 }
 
 function concordanceMaker(){
