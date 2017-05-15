@@ -42,14 +42,15 @@ function concordanceMaker(){
 
 	var ul = select('#concordance');
 
-	for (var i = 0; i < keys.length; i++) {
-		var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
-		li.parent(ul);
-	}
+	//for (var i = 0; i < keys.length; i++) {
+	//	var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
+	//	li.parent(ul);
+	//}
 }
 
 function draw(){
-  fill(0);
+  noStroke();
+  fill(random(255), random(255), random(255), 50);
   for (var i = 0; i < keys.length; i++){
   	ellipse (concordance[keys[i]]*40, concordance[keys[i]]*40, concordance[keys[i]]*40, concordance[keys[i]]*40)
 
