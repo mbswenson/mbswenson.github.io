@@ -4,7 +4,7 @@ var concordance = {};
 var keys = [];
 
 function setup(){
-	noCanvas();
+	createCanvas (window.innerWidth, window.innerHeight);
 
 	createElement ('br');
 	createElement ('br');
