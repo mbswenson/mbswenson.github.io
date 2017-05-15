@@ -55,7 +55,7 @@ function update(){
   stroke(0);
   for (var i = 0; i < keys.length; i++){
   	textSize(concordance[keys[i]]+20);
-  	text(30, [keys[i]], concordance[keys[i]]*(40));
+  	text([keys[i]], 50, concordance[keys[i]]*(40));
 
 }
 }
