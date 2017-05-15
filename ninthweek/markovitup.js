@@ -9,7 +9,7 @@ function preload() {
 function setup() {
 
    var cnv = createCanvas(500, 500);
-  var x = (windowWidth - width) / 2+200;
+  var x = (windowWidth - width) / 2+150;
   var y = (windowHeight - height) / 2+100;
   cnv.position(x, y);
   textFont('times', 16);
