@@ -9,7 +9,6 @@ function preload() {
 function setup() {
 
   createCanvas(500, 500);
-  background(random(255), random(255), random(255));
   textFont('times', 16);
   textAlign(LEFT);
 
@@ -26,7 +25,7 @@ function setup() {
 }
 
 function drawText() {
-
+  background(240, 50, 77);
   stroke(255);
   text(lines.join(' '), x, y, 400, 400);
 }
