@@ -30,6 +30,7 @@ function setup() {
 function drawText() {
   background(240, 50, 77);
   stroke(255);
+  fill (255);
   text(lines.join(' '), x, y, 400, 400);
 }
 
