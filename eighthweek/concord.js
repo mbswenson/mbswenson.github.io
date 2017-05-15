@@ -1,5 +1,7 @@
 var buttbutt;
 var textLocale;
+var concordance = {};
+var keys = [];
 
 function setup(){
 	noCanvas();
@@ -17,10 +19,8 @@ function setup(){
 }
 
 function concordanceMaker(){
-	var concordance = {};
 	data = textLocale.value();
 	var tokens = data.split(/\W+/);
-	var keys = [];
 
 	for (var i = 0; i < tokens.length; i++){
 		var word = tokens[i].toLowerCase();
@@ -40,31 +40,22 @@ function concordanceMaker(){
 		console.log(keys[i] + ': ' + concordance[keys[i]]);
 	}
 
-//	var ul = select('#concordance');
+	var ul = select('#concordance');
 	var wordFreq = concordance[keys[i]];
 	var wordList = keys[[i]];
     
-    //for (var x = 0; x < 1; x++){
-    //	for (var i = 0; i < keys.length; i++){
- // stroke(concordance[keys[i]], concordance[keys[i]], concordance[keys[i]]);
- // textSize(concordance[keys[i]]+20);
- // text([keys[i]], 30, concordance[keys[i]]*(40));
-	}
-//}
-//}
 
-	//var ul = select('#concordance');
-	//for (var i = 0; i < keys.length; i++) {
-	//	var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
-	//	li.parent(ul);
-	//}
+	for (var i = 0; i < keys.length; i++) {
+		var li = createElement ('li', keys[i] + ': ' + concordance[keys[i]]);
+		li.parent(ul);
+	}
+}
 
 function update(){
-  createCanvas(400, 400);
+  stroke(0);
   for (var i = 0; i < keys.length; i++){
-  stroke(000000);
-  textSize(concordance[keys[i]]+20);
-  text([keys[i]], 30, concordance[keys[i]]*(40));
+  	textSize(concordance[keys[i]]+20);
+  	text(30, [keys[i]], concordance[keys[i]]*(40));
 
 }
 }
