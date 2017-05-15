@@ -4,7 +4,12 @@ var concordance = {};
 var keys = [];
 
 function setup(){
-	createCanvas (window.innerWidth/2, window.innerHeight);
+	
+function setup() {
+    var cnv = createCanvas(700, 600);
+    var x = (windowWidth - width) / 2;
+    var y = (windowHeight - height) / 2;
+    cnv.position(x, y);
 
 	createElement ('br');
 	createElement ('br');
