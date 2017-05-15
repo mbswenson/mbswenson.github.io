@@ -7,7 +7,7 @@ function setup() {
     var cnv = createCanvas(700, 600);
     var x = (windowWidth - width) / 2;
     var y = (windowHeight - height) / 2;
-    cnv.position(x+50, y);
+    cnv.position(x+200, y);
 
 	createElement ('br');
 	createElement ('br');
